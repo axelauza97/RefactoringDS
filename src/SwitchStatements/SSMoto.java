@@ -3,19 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package refactoringds;
+package SwitchStatements;
 
 /**
  *
  * @author Axel
  */
-public class RefactoringDS {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public class SSMoto extends SSTransporte{
+    @Override
+    public void Impresion(){
+        System.out.println("Es una moto");
     }
-    
 }
